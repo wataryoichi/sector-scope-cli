@@ -17,7 +17,7 @@ symbols:
   - AMAT
   - ASML
   - TSM
-  - ON
+  - "ON"
   - ADI
 aliases:
   - chips

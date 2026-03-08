@@ -11,7 +11,7 @@ symbols:
   - TXN
   - ADI
   - MCHP
-  - ON
+  - "ON"
   - NXPI
   - SWKS
   - KEYS
