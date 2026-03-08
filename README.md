@@ -9,10 +9,11 @@
 ## 特徴
 
 - **テーマ別の相対強弱** をすぐ把握（防衛、半導体、AI、農業など）
+- **36テーマをプリセット** — 伝統的セクターに加え、Crypto / SaaS / AI などニッチなテーマも網羅
 - **時価総額順でデフォルト表示**
-- **複数出力形式**: テーブル / Markdown / JSON
+- **複数出力形式**: テーブル / Markdown / JSON / Vega-Lite
 - **ジャンル管理を分離**: 価格は外部ソース、テーマ分類は自前YAML管理
-- 将来的に日本株にも対応予定
+- **カスタムテーマ追加可能** — YAML を置くだけで自分だけのウォッチリストを作成
 
 ## インストール
 
@@ -175,14 +176,65 @@ sectorscope universe validate
 | `name` | 企業名 |
 | `price` | 株価 |
 
-## 利用可能なジャンル（初期）
+## 利用可能なテーマ一覧
 
-- `defense` - 防衛関連
-- `semiconductors` - 半導体
-- `ai` - AI関連
-- `agriculture` - 農業関連
-- `cybersecurity` - サイバーセキュリティ
-- `nuclear` - 原子力・ウラン
+### Sectors — 伝統的セクター (25)
+
+| ID | Label | Symbols |
+|---|---|---:|
+| `defense` | Defense | 10 |
+| `semiconductors` | Semiconductors | 15 |
+| `ai` | AI | 13 |
+| `agriculture` | Agriculture | 10 |
+| `cybersecurity` | Cybersecurity | 10 |
+| `nuclear` | Nuclear Energy | 8 |
+| `finance` | Finance | 15 |
+| `health-technology` | Health Technology | 14 |
+| `technology-services` | Technology Services | 14 |
+| `energy-minerals` | Energy Minerals | 14 |
+| `electronic-technology` | Electronic Technology | 14 |
+| `consumer-services` | Consumer Services | 14 |
+| `retail-trade` | Retail Trade | 14 |
+| `transportation` | Transportation | 14 |
+| `utilities` | Utilities | 14 |
+| `producer-manufacturing` | Producer Manufacturing | 14 |
+| `process-industries` | Process Industries | 14 |
+| `consumer-durables` | Consumer Durables | 14 |
+| `consumer-non-durables` | Consumer Non-Durables | 14 |
+| `commercial-services` | Commercial Services | 14 |
+| `communications` | Communications | 12 |
+| `health-services` | Health Services | 11 |
+| `industrial-services` | Industrial Services | 10 |
+| `distribution-services` | Distribution Services | 10 |
+| `non-energy-minerals` | Non-Energy Minerals | 14 |
+
+### Themes — Crypto / SaaS / ニッチテーマ (11)
+
+> 定義が変わりやすい新興領域のテーマ。セクターとは別ディレクトリで管理。
+
+| ID | Label | Market | Symbols |
+|---|---|---|---:|
+| `crypto` | Crypto | US | 12 |
+| `bitcoin-miners` | Bitcoin Miners | US | 9 |
+| `bitcoin-treasury` | Bitcoin Treasury | US | 7 |
+| `ethereum-treasury` | Ethereum Treasury | US | 5 |
+| `solana-treasury` | Solana Treasury | MIXED | 5 |
+| `stablecoin` | Stablecoin | US | 6 |
+| `crypto-payments` | Crypto Payments & Platforms | US | 6 |
+| `crypto-japan` | Crypto Japan | JP | 5 |
+| `ai-saas` | AI SaaS | US | 6 |
+| `security-saas` | Security SaaS | US | 5 |
+| `vertical-saas` | Vertical SaaS | US | 4 |
+
+```bash
+# Crypto 関連をチェック
+sectorscope show crypto
+sectorscope show bitcoin-miners --sort ytd
+
+# SaaS テーマ
+sectorscope show ai-saas
+sectorscope show security-saas
+```
 
 ## Notes on Yahoo Finance Data
 
@@ -209,7 +261,6 @@ sectorscope universe validate
 ## 将来の計画
 
 - 日本株対応
-- Vega-Lite 出力
 - 複数ジャンル比較 (`compare`)
 - AI 支援によるジャンルメンテナンス
 - スクリーニング機能
