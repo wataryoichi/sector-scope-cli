@@ -1,0 +1,33 @@
+id: transportation
+label: Transportation
+market: US
+description: US listed transportation companies including airlines, railroads, trucking, and shipping
+maintainer: manual+auto
+symbols:
+  - UNP
+  - CSX
+  - NSC
+  - UPS
+  - FDX
+  - DAL
+  - UAL
+  - AAL
+  - LUV
+  - JBHT
+  - ODFL
+  - XPO
+  - CHRW
+  - KEX
+aliases:
+  - logistics
+  - shipping
+  - 交通・輸送
+tags:
+  - transportation
+  - logistics
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

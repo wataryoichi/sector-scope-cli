@@ -1,0 +1,34 @@
+id: non-energy-minerals
+label: Non-Energy Minerals
+market: US
+description: US listed non-energy minerals companies including metals, mining, and mineral resources
+maintainer: manual+auto
+symbols:
+  - NEM
+  - FCX
+  - NUE
+  - STLD
+  - CLF
+  - AA
+  - MP
+  - ALB
+  - SQM
+  - GOLD
+  - RGLD
+  - FNV
+  - X
+  - RS
+aliases:
+  - metals
+  - mining
+  - 非エネルギー鉱物
+tags:
+  - non-energy-minerals
+  - metals
+  - mining
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

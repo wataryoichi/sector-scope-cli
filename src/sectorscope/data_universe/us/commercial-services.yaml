@@ -1,0 +1,33 @@
+id: commercial-services
+label: Commercial Services
+market: US
+description: US listed commercial services companies including payment processing, staffing, consulting, and information services
+maintainer: manual+auto
+symbols:
+  - V
+  - MA
+  - ADP
+  - PAYX
+  - FIS
+  - FI
+  - GPN
+  - VRSK
+  - BR
+  - CSGP
+  - CPAY
+  - WEX
+  - TOST
+  - PAYC
+aliases:
+  - payments
+  - business-services
+  - 商業サービス
+tags:
+  - commercial-services
+  - payments
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

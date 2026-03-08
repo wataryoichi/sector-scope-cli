@@ -1,0 +1,35 @@
+id: health-technology
+label: Health Technology
+market: US
+description: US listed health technology companies including pharmaceuticals, biotech, and medical devices
+maintainer: manual+auto
+symbols:
+  - LLY
+  - JNJ
+  - ABBV
+  - MRK
+  - PFE
+  - TMO
+  - ABT
+  - DHR
+  - AMGN
+  - MDT
+  - ISRG
+  - SYK
+  - BSX
+  - GILD
+aliases:
+  - pharma
+  - biotech
+  - medical-devices
+  - ヘルスケアテクノロジー
+tags:
+  - health-technology
+  - pharma
+  - biotech
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

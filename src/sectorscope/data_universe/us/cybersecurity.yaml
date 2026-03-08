@@ -1,0 +1,25 @@
+id: cybersecurity
+label: Cybersecurity
+market: US
+description: Cybersecurity and information security companies
+maintainer: manual
+symbols:
+  - CRWD
+  - PANW
+  - FTNT
+  - ZS
+  - S
+  - OKTA
+  - NET
+  - CYBR
+  - QLYS
+  - TENB
+aliases:
+  - security
+  - infosec
+tags:
+  - cybersecurity
+  - technology
+  - us
+metadata:
+  updated_at: "2026-03-08"

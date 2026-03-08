@@ -85,7 +85,7 @@ def list_sectors(
             }
             for u in universes
         ]
-        console.print(json.dumps(items, ensure_ascii=False, indent=2))
+        print(json.dumps(items, ensure_ascii=False, indent=2))
         return
 
     if fmt == OutputFormat.markdown:
@@ -204,7 +204,7 @@ def show(
 
     # コンソール出力
     if output_text:
-        console.print(output_text)
+        print(output_text)
     else:
         format_table(result, console=console)
 

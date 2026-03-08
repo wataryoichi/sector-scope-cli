@@ -1,0 +1,32 @@
+id: communications
+label: Communications
+market: US
+description: US listed communications companies including telecom carriers, cable, and media
+maintainer: manual+auto
+symbols:
+  - T
+  - VZ
+  - TMUS
+  - CMCSA
+  - CHTR
+  - LBRDA
+  - WBD
+  - PARA
+  - FOX
+  - NWSA
+  - IPG
+  - OMC
+aliases:
+  - telecom
+  - media
+  - 通信
+tags:
+  - communications
+  - telecom
+  - media
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

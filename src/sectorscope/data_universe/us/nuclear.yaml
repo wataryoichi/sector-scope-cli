@@ -1,0 +1,24 @@
+id: nuclear
+label: Nuclear Energy
+market: US
+description: Nuclear energy and uranium companies
+maintainer: manual
+symbols:
+  - CEG
+  - VST
+  - CCJ
+  - SMR
+  - LEU
+  - UEC
+  - DNN
+  - NNE
+aliases:
+  - uranium
+  - atomic
+tags:
+  - nuclear
+  - energy
+  - uranium
+  - us
+metadata:
+  updated_at: "2026-03-08"

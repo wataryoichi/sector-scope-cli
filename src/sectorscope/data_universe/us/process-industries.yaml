@@ -1,0 +1,34 @@
+id: process-industries
+label: Process Industries
+market: US
+description: US listed process industries companies including chemicals, paper, plastics, and specialty materials
+maintainer: manual+auto
+symbols:
+  - LIN
+  - APD
+  - SHW
+  - ECL
+  - DD
+  - DOW
+  - PPG
+  - CE
+  - EMN
+  - IFF
+  - RPM
+  - HUN
+  - OLN
+  - AXTA
+aliases:
+  - chemicals
+  - materials
+  - 素材産業
+tags:
+  - process-industries
+  - chemicals
+  - materials
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

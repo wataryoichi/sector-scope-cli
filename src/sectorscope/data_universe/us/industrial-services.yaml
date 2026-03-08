@@ -1,0 +1,30 @@
+id: industrial-services
+label: Industrial Services
+market: US
+description: US listed industrial services companies including waste management, environmental services, and facility services
+maintainer: manual+auto
+symbols:
+  - WM
+  - RSG
+  - GFL
+  - CTAS
+  - ROL
+  - ARMK
+  - ABM
+  - CLH
+  - SRCL
+  - US
+aliases:
+  - waste-management
+  - environmental-services
+  - 産業サービス
+tags:
+  - industrial-services
+  - waste
+  - environmental
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

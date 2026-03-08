@@ -1,0 +1,28 @@
+id: defense
+label: Defense
+market: US
+description: US listed defense and defense-adjacent companies
+maintainer: manual+auto
+symbols:
+  - RTX
+  - LMT
+  - NOC
+  - GD
+  - LHX
+  - BA
+  - HII
+  - LDOS
+  - AVAV
+  - KTOS
+aliases:
+  - military
+  - aerospace-defense
+tags:
+  - defense
+  - military
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

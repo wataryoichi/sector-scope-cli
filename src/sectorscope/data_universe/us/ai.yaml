@@ -1,0 +1,27 @@
+id: ai
+label: AI
+market: US
+description: Artificial intelligence and AI-adjacent companies
+maintainer: manual
+symbols:
+  - NVDA
+  - MSFT
+  - GOOGL
+  - META
+  - AMZN
+  - PLTR
+  - CRM
+  - NOW
+  - SNOW
+  - AI
+  - PATH
+  - CDNS
+  - SNPS
+aliases:
+  - artificial-intelligence
+tags:
+  - ai
+  - technology
+  - us
+metadata:
+  updated_at: "2026-03-08"

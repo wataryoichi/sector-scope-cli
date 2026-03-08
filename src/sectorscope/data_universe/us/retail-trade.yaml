@@ -1,0 +1,33 @@
+id: retail-trade
+label: Retail Trade
+market: US
+description: US listed retail trade companies including department stores, specialty retail, and e-commerce
+maintainer: manual+auto
+symbols:
+  - AMZN
+  - WMT
+  - COST
+  - HD
+  - LOW
+  - TGT
+  - TJX
+  - ROST
+  - DG
+  - DLTR
+  - ORLY
+  - AZO
+  - BBY
+  - EBAY
+aliases:
+  - retail
+  - ecommerce
+  - 小売業
+tags:
+  - retail-trade
+  - retail
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

@@ -1,0 +1,35 @@
+id: finance
+label: Finance
+market: US
+description: US listed financial companies including banks, insurance, asset management, and securities
+maintainer: manual+auto
+symbols:
+  - JPM
+  - BAC
+  - WFC
+  - GS
+  - MS
+  - C
+  - BLK
+  - SCHW
+  - AXP
+  - USB
+  - PNC
+  - TFC
+  - BK
+  - CME
+  - ICE
+aliases:
+  - financials
+  - banking
+  - 金融
+tags:
+  - finance
+  - banking
+  - insurance
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"
