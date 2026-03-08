@@ -1,4 +1,4 @@
-"""Universe（ジャンル定義）の読込・検索サービス"""
+"""Universe（セクター定義）の読込・検索サービス"""
 
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ def _all_source_dirs() -> list[Path]:
 
 
 def load_universe(sector_id: str, market: str = "US") -> UniverseDefinition:
-    """指定ジャンルの universe 定義を読み込む
+    """指定セクターの universe 定義を読み込む
 
     指定 market → 全 market の順でファイル名・エイリアス・タグを検索する。
     """
@@ -56,7 +56,7 @@ def load_universe(sector_id: str, market: str = "US") -> UniverseDefinition:
 
 
 def list_universes(market: str | None = None) -> list[UniverseDefinition]:
-    """利用可能な全ジャンル・テーマを一覧取得"""
+    """利用可能な全セクター・テーマを一覧取得"""
     results: list[UniverseDefinition] = []
     seen_ids: set[str] = set()
 

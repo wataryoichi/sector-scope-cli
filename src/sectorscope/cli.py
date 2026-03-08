@@ -16,7 +16,7 @@ app = typer.Typer(
     help="テーマ・セクター単位で株式の騰落率を確認するCLIツール",
     no_args_is_help=True,
 )
-universe_app = typer.Typer(help="Universe（ジャンル定義）管理コマンド")
+universe_app = typer.Typer(help="Universe（セクター定義）管理コマンド")
 app.add_typer(universe_app, name="universe")
 
 console = Console()
@@ -63,12 +63,12 @@ def list_sectors(
     market: Annotated[Optional[str], typer.Option("--market", "-m", help="対象市場 (us/jp)")] = None,
     fmt: Annotated[OutputFormat, typer.Option("--format", "-f", help="出力形式")] = OutputFormat.table,
 ) -> None:
-    """利用可能なジャンル一覧を表示"""
+    """利用可能なセクター一覧を表示"""
     from sectorscope.services.universe_service import list_universes
 
     universes = list_universes(market=market)
     if not universes:
-        console.print("[yellow]ジャンル定義が見つかりません。data/universe/ にYAMLファイルを配置してください。[/yellow]")
+        console.print("[yellow]セクター定義が見つかりません。data/universe/ にYAMLファイルを配置してください。[/yellow]")
         raise typer.Exit(1)
 
     if fmt == OutputFormat.json:
@@ -116,7 +116,7 @@ def list_sectors(
 
 @app.command()
 def show(
-    sector_id: Annotated[str, typer.Argument(help="ジャンルID")],
+    sector_id: Annotated[str, typer.Argument(help="セクターID")],
     market: Annotated[Optional[str], typer.Option("--market", "-m", help="対象市場")] = None,
     sort: Annotated[SortKey, typer.Option("--sort", "-s", help="ソートキー")] = SortKey.market_cap,
     desc: Annotated[bool, typer.Option("--desc", help="降順")] = True,
@@ -128,7 +128,7 @@ def show(
     wrap_code: Annotated[bool, typer.Option("--wrap-code", help="vega-lite を ```vega-lite で囲む")] = False,
     output: Annotated[Optional[str], typer.Option("--output", "-o", help="出力先ファイルパス")] = None,
 ) -> None:
-    """指定ジャンルの銘柄一覧と騰落率を表示"""
+    """指定セクターの銘柄一覧と騰落率を表示"""
     from sectorscope.formatters.json_fmt import format_json
     from sectorscope.formatters.markdown import format_markdown
     from sectorscope.formatters.table import format_table
@@ -145,7 +145,7 @@ def show(
     try:
         universe = load_universe(sector_id, market=effective_market)
     except FileNotFoundError:
-        console.print(f"[red]ジャンル '{sector_id}' が見つかりません。[/red]")
+        console.print(f"[red]セクター '{sector_id}' が見つかりません。[/red]")
         raise typer.Exit(1)
 
     provider = YFinanceProvider(use_cache=not no_cache)
@@ -233,7 +233,7 @@ def show(
 
 @universe_app.command()
 def validate() -> None:
-    """ジャンル定義ファイルを検証"""
+    """セクター定義ファイルを検証"""
     from sectorscope.services.universe_service import list_universes
 
     universes = list_universes()
@@ -247,7 +247,7 @@ def validate() -> None:
         if not u.symbols:
             errors.append(f"[{u.id}] symbols が空です")
 
-        # シンボル重複（ジャンル内）
+        # シンボル重複（セクター内）
         seen = set()
         for s in u.symbols:
             if s in seen:
@@ -258,7 +258,7 @@ def validate() -> None:
         if u.market not in ("US", "JP", "MIXED"):
             errors.append(f"[{u.id}] 不正な market: '{u.market}'")
 
-        # 全ジャンル横断の重複チェック用
+        # 全セクター横断の重複チェック用
         for s in u.symbols:
             all_symbols.setdefault(s, []).append(u.id)
         for a in u.aliases:
@@ -267,7 +267,7 @@ def validate() -> None:
     # エイリアス重複チェック
     for alias, ids in all_aliases.items():
         if len(ids) > 1:
-            errors.append(f"alias '{alias}' が複数ジャンルで使用: {', '.join(ids)}")
+            errors.append(f"alias '{alias}' が複数セクターで使用: {', '.join(ids)}")
 
     if errors:
         console.print("[red]検証エラー:[/red]")
@@ -275,4 +275,4 @@ def validate() -> None:
             console.print(f"  - {e}")
         raise typer.Exit(1)
     else:
-        console.print(f"[green]全 {len(universes)} ジャンルの検証に成功しました。[/green]")
+        console.print(f"[green]全 {len(universes)} セクターの検証に成功しました。[/green]")

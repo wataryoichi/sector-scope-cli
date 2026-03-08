@@ -1,4 +1,4 @@
-"""ジャンル（Universe）定義モデル"""
+"""セクター（Universe）定義モデル"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class UniverseDefinition(BaseModel):
-    """ジャンル定義ファイルのモデル"""
+    """セクター定義ファイルのモデル"""
 
     id: str
     label: str
