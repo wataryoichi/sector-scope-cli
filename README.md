@@ -101,6 +101,55 @@ metadata:
 
 Yahoo Finance 等のデータは便利だが、テーマ分類（軍事、農業、AI インフラなど）は安定して一貫提供されるとは限らない。そのため「価格は外部ソースから取得」「ジャンル所属は自前で管理」という構成を採用している。
 
+## カスタムジャンルの追加
+
+`~/.sectorscope/universe/us/` にYAMLファイルを置くと、自分だけのカスタムジャンルを追加できます。
+
+```bash
+# カスタムディレクトリを作成
+mkdir -p ~/.sectorscope/universe/us
+
+# 自分だけのテーマを追加
+cat > ~/.sectorscope/universe/us/space.yaml << 'EOF'
+id: space
+label: Space
+market: US
+description: Space exploration and satellite companies
+symbols:
+  - RKLB
+  - ASTS
+  - LUNR
+  - RDW
+  - MNTS
+aliases:
+  - aerospace
+tags:
+  - space
+  - us
+metadata:
+  updated_at: "2026-03-08"
+EOF
+
+# 追加したジャンルが認識されるか確認
+sectorscope list-sectors
+sectorscope show space
+```
+
+### ジャンル定義の検索優先順
+
+| 優先度 | パス | 用途 |
+|:---:|---|---|
+| 1 | `~/.sectorscope/universe/` | ユーザーカスタム（最優先） |
+| 2 | プロジェクト内 `data/universe/` | 開発用（ソースから実行時） |
+| 3 | パッケージ同梱データ | フォールバック（pipx等でインストール時） |
+
+> **注意**: `~/.sectorscope/universe/` にYAMLファイルが1つでも存在すると、そのディレクトリが優先されます。組み込みのセクターも使いたい場合は、パッケージ同梱のYAMLをコピーしてからカスタマイズしてください。
+
+```bash
+# 組み込みセクターをコピーしてからカスタマイズする場合
+cp -r "$(python3 -c 'import sectorscope; print(sectorscope.__file__)'  | xargs dirname)/data_universe/"* ~/.sectorscope/universe/
+```
+
 ## universe 管理
 
 ```bash
