@@ -1,0 +1,33 @@
+id: bitcoin-treasury
+label: Bitcoin Treasury
+market: US
+description: U.S.-listed companies with explicit or meaningful Bitcoin treasury exposure, including balance-sheet BTC holders and closely watched BTC proxy equities
+maintainer: manual
+symbols:
+  - MSTR
+  - SMLR
+  - MARA
+  - RIOT
+  - CLSK
+  - HUT
+  - BTDR
+names:
+  MSTR: Strategy Inc.
+  SMLR: Semler Scientific, Inc.
+  MARA: MARA Holdings, Inc.
+  RIOT: Riot Platforms, Inc.
+  CLSK: CleanSpark, Inc.
+  HUT: Hut 8 Corp.
+  BTDR: Bitdeer Technologies Group
+aliases:
+  - btc-treasury
+  - bitcoin-treasury
+  - bitcoin-proxies
+tags:
+  - bitcoin
+  - treasury
+  - btc
+  - proxies
+  - us
+metadata:
+  updated_at: "2026-03-08"

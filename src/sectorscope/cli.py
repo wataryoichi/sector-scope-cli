@@ -255,7 +255,7 @@ def validate() -> None:
             seen.add(s)
 
         # market 検証
-        if u.market not in ("US", "JP"):
+        if u.market not in ("US", "JP", "MIXED"):
             errors.append(f"[{u.id}] 不正な market: '{u.market}'")
 
         # 全ジャンル横断の重複チェック用

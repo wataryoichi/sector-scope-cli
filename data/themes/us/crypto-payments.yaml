@@ -1,0 +1,31 @@
+id: crypto-payments
+label: Crypto Payments & Platforms
+market: US
+description: U.S.-listed companies with material exposure to crypto trading, wallets, brokerage, payments, or market infrastructure
+maintainer: manual
+symbols:
+  - COIN
+  - HOOD
+  - XYZ
+  - PYPL
+  - BKKT
+  - CME
+names:
+  COIN: Coinbase Global, Inc.
+  HOOD: Robinhood Markets, Inc.
+  XYZ: Block, Inc.
+  PYPL: PayPal Holdings, Inc.
+  BKKT: Bakkt Holdings, Inc.
+  CME: CME Group Inc.
+aliases:
+  - crypto-platforms
+  - crypto-payments
+  - crypto-fintech
+tags:
+  - crypto
+  - payments
+  - brokerage
+  - exchange
+  - us
+metadata:
+  updated_at: "2026-03-08"

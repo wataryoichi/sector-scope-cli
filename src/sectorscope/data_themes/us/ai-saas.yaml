@@ -1,0 +1,31 @@
+id: ai-saas
+label: AI SaaS
+market: US
+description: U.S.-listed software companies where AI software, agentic AI, automation, or AI-native platform products are central to the equity story
+maintainer: manual
+symbols:
+  - PLTR
+  - AI
+  - PATH
+  - SOUN
+  - BBAI
+  - SNOW
+names:
+  PLTR: Palantir Technologies Inc.
+  AI: C3.ai, Inc.
+  PATH: UiPath, Inc.
+  SOUN: SoundHound AI, Inc.
+  BBAI: BigBear.ai Holdings, Inc.
+  SNOW: Snowflake Inc.
+aliases:
+  - ai-software
+  - agentic-ai
+  - ai-platforms
+tags:
+  - saas
+  - ai
+  - software
+  - cloud
+  - us
+metadata:
+  updated_at: "2026-03-08"

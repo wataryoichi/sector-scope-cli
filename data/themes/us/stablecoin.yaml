@@ -1,0 +1,32 @@
+id: stablecoin
+label: Stablecoin
+market: US
+description: U.S.-listed companies with meaningful stablecoin issuance, distribution, payments, or infrastructure exposure
+maintainer: manual
+symbols:
+  - CRCL
+  - COIN
+  - PYPL
+  - XYZ
+  - HOOD
+  - CME
+names:
+  CRCL: Circle Internet Group, Inc.
+  COIN: Coinbase Global, Inc.
+  PYPL: PayPal Holdings, Inc.
+  XYZ: Block, Inc.
+  HOOD: Robinhood Markets, Inc.
+  CME: CME Group Inc.
+aliases:
+  - stablecoins
+  - usdc
+  - pyusd
+  - stablecoin-infrastructure
+tags:
+  - stablecoin
+  - payments
+  - fintech
+  - crypto
+  - us
+metadata:
+  updated_at: "2026-03-08"

@@ -1,0 +1,37 @@
+id: bitcoin-miners
+label: Bitcoin Miners
+market: US
+description: Publicly traded Bitcoin miners and adjacent infrastructure operators with direct mining exposure
+maintainer: manual
+symbols:
+  - MARA
+  - RIOT
+  - CLSK
+  - HUT
+  - BTDR
+  - CORZ
+  - IREN
+  - CIFR
+  - WULF
+names:
+  MARA: MARA Holdings, Inc.
+  RIOT: Riot Platforms, Inc.
+  CLSK: CleanSpark, Inc.
+  HUT: Hut 8 Corp.
+  BTDR: Bitdeer Technologies Group
+  CORZ: Core Scientific, Inc.
+  IREN: IREN Limited
+  CIFR: Cipher Mining Inc.
+  WULF: TeraWulf Inc.
+aliases:
+  - btc-miners
+  - bitcoin-miners
+  - mining-stocks
+tags:
+  - bitcoin
+  - miners
+  - mining
+  - infrastructure
+  - us
+metadata:
+  updated_at: "2026-03-08"

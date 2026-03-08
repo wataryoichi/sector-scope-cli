@@ -1,0 +1,43 @@
+id: crypto
+label: Crypto
+market: US
+description: Public U.S.-listed companies with meaningful crypto, exchange, brokerage, wallet, payments, mining, or infrastructure exposure
+maintainer: manual
+symbols:
+  - COIN
+  - HOOD
+  - XYZ
+  - PYPL
+  - BKKT
+  - CME
+  - MARA
+  - RIOT
+  - CLSK
+  - HUT
+  - BTDR
+  - CORZ
+names:
+  COIN: Coinbase Global, Inc.
+  HOOD: Robinhood Markets, Inc.
+  XYZ: Block, Inc.
+  PYPL: PayPal Holdings, Inc.
+  BKKT: Bakkt Holdings, Inc.
+  CME: CME Group Inc.
+  MARA: MARA Holdings, Inc.
+  RIOT: Riot Platforms, Inc.
+  CLSK: CleanSpark, Inc.
+  HUT: Hut 8 Corp.
+  BTDR: Bitdeer Technologies Group
+  CORZ: Core Scientific, Inc.
+aliases:
+  - crypto
+  - digital-assets
+  - crypto-related
+tags:
+  - crypto
+  - digital-assets
+  - fintech
+  - mining
+  - us
+metadata:
+  updated_at: "2026-03-08"

@@ -1,0 +1,29 @@
+id: crypto-japan
+label: Crypto Japan
+market: JP
+description: Japan-listed companies with meaningful crypto exchange, brokerage, treasury, blockchain, or digital asset business exposure
+maintainer: manual
+symbols:
+  - "3350"
+  - "8698"
+  - "8473"
+  - "3825"
+  - "3903"
+names:
+  "3350": Metaplanet Inc.
+  "8698": Monex Group, Inc.
+  "8473": SBI Holdings, Inc.
+  "3825": Remixpoint, Inc.
+  "3903": gumi Inc.
+aliases:
+  - japan-crypto
+  - crypto-japan
+  - jp-digital-assets
+tags:
+  - crypto
+  - japan
+  - exchanges
+  - treasury
+  - blockchain
+metadata:
+  updated_at: "2026-03-08"

@@ -1,0 +1,29 @@
+id: ethereum-treasury
+label: Ethereum Treasury
+market: US
+description: Public companies with explicit Ethereum treasury, staking, or ETH balance-sheet strategies
+maintainer: manual
+symbols:
+  - BMNR
+  - BTCS
+  - BTBT
+  - GAME
+  - FRMM
+names:
+  BMNR: BitMine Immersion Technologies, Inc.
+  BTCS: BTCS Inc.
+  BTBT: Bit Digital, Inc.
+  GAME: GameSquare Holdings, Inc.
+  FRMM: Forum Markets Inc.
+aliases:
+  - eth-treasury
+  - ethereum-treasury
+  - ether-proxies
+tags:
+  - ethereum
+  - eth
+  - treasury
+  - staking
+  - us
+metadata:
+  updated_at: "2026-03-08"

@@ -1,0 +1,29 @@
+id: security-saas
+label: Security SaaS
+market: US
+description: U.S.-listed cloud-first cybersecurity software companies with meaningful recurring software or platform revenue
+maintainer: manual
+symbols:
+  - CRWD
+  - PANW
+  - ZS
+  - OKTA
+  - S
+names:
+  CRWD: CrowdStrike Holdings, Inc.
+  PANW: Palo Alto Networks, Inc.
+  ZS: Zscaler, Inc.
+  OKTA: Okta, Inc.
+  S: SentinelOne, Inc.
+aliases:
+  - cyber-saas
+  - cybersecurity-saas
+  - security-cloud
+tags:
+  - saas
+  - security
+  - cybersecurity
+  - cloud
+  - us
+metadata:
+  updated_at: "2026-03-08"

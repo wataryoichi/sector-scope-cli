@@ -33,6 +33,7 @@ packages = ["src/sectorscope"]
 
 [tool.hatch.build.targets.wheel.force-include]
 "src/sectorscope/data_universe" = "sectorscope/data_universe"
+"src/sectorscope/data_themes" = "sectorscope/data_themes"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

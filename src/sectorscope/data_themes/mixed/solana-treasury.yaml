@@ -1,0 +1,29 @@
+id: solana-treasury
+label: Solana Treasury
+market: MIXED
+description: Public companies with explicit Solana treasury, staking, validator, or SOL balance-sheet strategies
+maintainer: manual
+symbols:
+  - DFDV
+  - UPXI
+  - STKE
+  - HSDT
+  - FWDI
+names:
+  DFDV: DeFi Development Corp.
+  UPXI: Upexi, Inc.
+  STKE: SOL Strategies Inc.
+  HSDT: Solana Company
+  FWDI: Forward Industries, Inc.
+aliases:
+  - sol-treasury
+  - solana-treasury
+  - solana-proxies
+tags:
+  - solana
+  - sol
+  - treasury
+  - staking
+  - validators
+metadata:
+  updated_at: "2026-03-08"

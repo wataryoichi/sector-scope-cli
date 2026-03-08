@@ -1,0 +1,27 @@
+id: vertical-saas
+label: Vertical SaaS
+market: US
+description: U.S.-listed companies offering industry-specific cloud software platforms for healthcare, life sciences, construction, and financial services
+maintainer: manual
+symbols:
+  - VEEV
+  - PCOR
+  - NCNO
+  - PHR
+names:
+  VEEV: Veeva Systems Inc.
+  PCOR: Procore Technologies, Inc.
+  NCNO: nCino, Inc.
+  PHR: Phreesia, Inc.
+aliases:
+  - industry-saas
+  - sector-saas
+  - vertical-software
+tags:
+  - saas
+  - vertical-saas
+  - cloud
+  - software
+  - us
+metadata:
+  updated_at: "2026-03-08"

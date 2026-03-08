@@ -12,7 +12,7 @@ class UniverseDefinition(BaseModel):
 
     id: str
     label: str
-    market: Literal["US", "JP"] = "US"
+    market: Literal["US", "JP", "MIXED"] = "US"
     description: str | None = None
     symbols: list[str]
     aliases: list[str] = Field(default_factory=list)
