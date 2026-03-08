@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sectorscope"
-version = "0.2.0"
+version = "0.3.0"
 description = "テーマ・セクター単位で米国株の騰落率を高速確認できるCLIツール"
 readme = "README.md"
 requires-python = ">=3.11"

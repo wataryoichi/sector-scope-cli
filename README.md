@@ -2,6 +2,10 @@
 
 テーマ・セクター単位で米国株の騰落率を高速確認できるコマンドラインツール。
 
+<picture>
+  <img alt="sectorscope show ai" src="docs/screenshot-show-ai.svg" width="800">
+</picture>
+
 ## 特徴
 
 - **テーマ別の相対強弱** をすぐ把握（防衛、半導体、AI、農業など）
