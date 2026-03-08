@@ -1,0 +1,33 @@
+id: consumer-non-durables
+label: Consumer Non-Durables
+market: US
+description: US listed consumer non-durables companies including food, beverages, household products, and tobacco
+maintainer: manual+auto
+symbols:
+  - PG
+  - KO
+  - PEP
+  - PM
+  - MO
+  - CL
+  - MDLZ
+  - GIS
+  - KHC
+  - HSY
+  - SJM
+  - KMB
+  - CHD
+  - EL
+aliases:
+  - consumer-staples
+  - food-beverage
+  - 非耐久消費財
+tags:
+  - consumer-non-durables
+  - consumer-staples
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

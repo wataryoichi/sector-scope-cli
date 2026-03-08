@@ -1,0 +1,34 @@
+id: consumer-durables
+label: Consumer Durables
+market: US
+description: US listed consumer durables companies including automobiles, home appliances, and housing construction
+maintainer: manual+auto
+symbols:
+  - TSLA
+  - F
+  - GM
+  - NKE
+  - WHR
+  - LEA
+  - APTV
+  - PHM
+  - LEN
+  - DHI
+  - NVR
+  - TOL
+  - GRMN
+  - HOG
+aliases:
+  - consumer-discretionary
+  - autos
+  - 耐久消費財
+tags:
+  - consumer-durables
+  - autos
+  - housing
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

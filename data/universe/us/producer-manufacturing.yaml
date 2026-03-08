@@ -1,0 +1,33 @@
+id: producer-manufacturing
+label: Producer Manufacturing
+market: US
+description: US listed producer manufacturing companies including industrial machinery, aerospace, and capital goods
+maintainer: manual+auto
+symbols:
+  - CAT
+  - DE
+  - HON
+  - GE
+  - MMM
+  - EMR
+  - ROK
+  - ITW
+  - PH
+  - ETN
+  - DOV
+  - AME
+  - OTIS
+  - IR
+aliases:
+  - industrials
+  - machinery
+  - 生産財製造
+tags:
+  - producer-manufacturing
+  - industrials
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

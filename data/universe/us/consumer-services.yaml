@@ -1,0 +1,34 @@
+id: consumer-services
+label: Consumer Services
+market: US
+description: US listed consumer services companies including hotels, restaurants, leisure, and entertainment
+maintainer: manual+auto
+symbols:
+  - MCD
+  - SBUX
+  - CMG
+  - DRI
+  - YUM
+  - MAR
+  - HLT
+  - ABNB
+  - BKNG
+  - LVS
+  - WYNN
+  - MGM
+  - DIS
+  - NFLX
+aliases:
+  - hospitality
+  - leisure
+  - 消費者サービス
+tags:
+  - consumer-services
+  - hospitality
+  - leisure
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

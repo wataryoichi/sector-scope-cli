@@ -1,0 +1,30 @@
+id: health-services
+label: Health Services
+market: US
+description: US listed health services companies including hospitals, pharmacies, and health insurance
+maintainer: manual+auto
+symbols:
+  - UNH
+  - ELV
+  - HUM
+  - CI
+  - CNC
+  - CVS
+  - HCA
+  - THC
+  - DVA
+  - MOH
+  - ALGN
+aliases:
+  - healthcare-services
+  - health-insurance
+  - ヘルスケアサービス
+tags:
+  - health-services
+  - healthcare
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

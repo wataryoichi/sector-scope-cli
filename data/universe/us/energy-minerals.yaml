@@ -1,0 +1,34 @@
+id: energy-minerals
+label: Energy Minerals
+market: US
+description: US listed energy minerals companies including oil and gas exploration, production, and refining
+maintainer: manual+auto
+symbols:
+  - XOM
+  - CVX
+  - COP
+  - EOG
+  - SLB
+  - PXD
+  - MPC
+  - VLO
+  - PSX
+  - OXY
+  - DVN
+  - HES
+  - FANG
+  - HAL
+aliases:
+  - oil-gas
+  - energy
+  - エネルギー鉱物
+tags:
+  - energy-minerals
+  - oil
+  - gas
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

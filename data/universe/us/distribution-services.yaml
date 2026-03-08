@@ -1,0 +1,29 @@
+id: distribution-services
+label: Distribution Services
+market: US
+description: US listed distribution services companies including wholesale and industrial distribution
+maintainer: manual+auto
+symbols:
+  - FAST
+  - GWW
+  - MSM
+  - POOL
+  - WSO
+  - WCC
+  - CNM
+  - LKQ
+  - GPC
+  - COR
+aliases:
+  - wholesale
+  - distribution
+  - 流通サービス
+tags:
+  - distribution-services
+  - wholesale
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

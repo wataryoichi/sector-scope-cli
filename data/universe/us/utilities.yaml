@@ -1,0 +1,32 @@
+id: utilities
+label: Utilities
+market: US
+description: US listed utility companies including electric, gas, and water utilities
+maintainer: manual+auto
+symbols:
+  - NEE
+  - DUK
+  - SO
+  - D
+  - AEP
+  - SRE
+  - EXC
+  - XEL
+  - WEC
+  - ES
+  - ED
+  - AEE
+  - CMS
+  - PPL
+aliases:
+  - electric-utilities
+  - 公益事業
+tags:
+  - utilities
+  - electric
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"

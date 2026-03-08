@@ -1,0 +1,33 @@
+id: electronic-technology
+label: Electronic Technology
+market: US
+description: US listed electronic technology companies including semiconductors, electronic components, and computer hardware
+maintainer: manual+auto
+symbols:
+  - AAPL
+  - NVDA
+  - AVGO
+  - QCOM
+  - TXN
+  - ADI
+  - MCHP
+  - ON
+  - NXPI
+  - SWKS
+  - KEYS
+  - TEL
+  - APH
+  - GLW
+aliases:
+  - electronics
+  - 電子テクノロジー
+tags:
+  - electronic-technology
+  - electronics
+  - semiconductors
+  - us
+metadata:
+  source_priority:
+    - manual
+    - auto-yfinance
+  updated_at: "2026-03-08"
