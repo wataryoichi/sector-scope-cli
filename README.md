@@ -13,7 +13,7 @@
 ## インストール
 
 ```bash
-git clone https://github.com/your-user/sector-scope-cli.git
+git clone https://github.com/wataryoichi/sector-scope-cli.git
 cd sector-scope-cli
 python3 -m venv .venv
 source .venv/bin/activate
@@ -130,6 +130,13 @@ sectorscope universe validate
 - `agriculture` - 農業関連
 - `cybersecurity` - サイバーセキュリティ
 - `nuclear` - 原子力・ウラン
+
+## Notes on Yahoo Finance Data
+
+- yfinance は Yahoo Finance の公開 API を使う OSS ライブラリであり、公式 SDK ではありません
+- データの一時的な欠損やエラーが発生する可能性があります
+- このツールは個人利用を想定しています。取得データの商用利用や大量再配布は Yahoo Finance の利用規約に抵触する可能性があります
+- 本ツールの出力は投資助言ではありません。投資判断は自己責任で行ってください。本ツールの利用により生じた損害について、作者は一切の責任を負いません
 
 ## 注意事項
 
