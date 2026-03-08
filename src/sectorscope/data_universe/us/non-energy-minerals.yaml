@@ -18,6 +18,21 @@ symbols:
   - FNV
   - X
   - RS
+names:
+  NEM: Newmont Corporation
+  FCX: Freeport-McMoRan
+  NUE: Nucor Corporation
+  STLD: Steel Dynamics
+  CLF: Cleveland-Cliffs
+  AA: Alcoa Corporation
+  MP: MP Materials
+  ALB: Albemarle Corporation
+  SQM: Sociedad Química y Minera de Chile
+  GOLD: Barrick Gold Corporation
+  RGLD: Royal Gold
+  FNV: Franco-Nevada Corporation
+  X: United States Steel Corporation
+  RS: Reliance Steel & Aluminum Co.
 aliases:
   - metals
   - mining

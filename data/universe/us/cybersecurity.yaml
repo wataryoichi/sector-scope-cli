@@ -14,6 +14,17 @@ symbols:
   - CYBR
   - QLYS
   - TENB
+names:
+  CRWD: CrowdStrike Holdings
+  PANW: Palo Alto Networks
+  FTNT: Fortinet
+  ZS: Zscaler
+  S: SentinelOne
+  OKTA: Okta
+  NET: Cloudflare
+  CYBR: CyberArk Software
+  QLYS: Qualys
+  TENB: Tenable Holdings
 aliases:
   - security
   - infosec

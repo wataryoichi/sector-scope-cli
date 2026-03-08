@@ -18,6 +18,21 @@ symbols:
   - AEE
   - CMS
   - PPL
+names:
+  NEE: NextEra Energy
+  DUK: Duke Energy Corporation
+  SO: The Southern Company
+  D: Dominion Energy
+  AEP: American Electric Power
+  SRE: Sempra
+  EXC: Exelon Corporation
+  XEL: Xcel Energy
+  WEC: WEC Energy Group
+  ES: Eversource Energy
+  ED: Consolidated Edison
+  AEE: Ameren Corporation
+  CMS: CMS Energy
+  PPL: PPL Corporation
 aliases:
   - electric-utilities
   - 公益事業

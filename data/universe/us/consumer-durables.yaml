@@ -18,6 +18,21 @@ symbols:
   - TOL
   - GRMN
   - HOG
+names:
+  TSLA: Tesla
+  F: Ford Motor Company
+  GM: General Motors Company
+  NKE: NIKE
+  WHR: Whirlpool Corporation
+  LEA: Lear Corporation
+  APTV: Aptiv PLC
+  PHM: PulteGroup
+  LEN: Lennar Corporation
+  DHI: D.R. Horton
+  NVR: NVR Inc.
+  TOL: Toll Brothers
+  GRMN: Garmin Ltd.
+  HOG: Harley-Davidson
 aliases:
   - consumer-discretionary
   - autos

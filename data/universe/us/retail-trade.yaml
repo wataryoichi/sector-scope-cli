@@ -18,6 +18,21 @@ symbols:
   - AZO
   - BBY
   - EBAY
+names:
+  AMZN: Amazon.com
+  WMT: Walmart Inc.
+  COST: Costco Wholesale Corporation
+  HD: The Home Depot
+  LOW: Lowe's Companies
+  TGT: Target Corporation
+  TJX: The TJX Companies
+  ROST: Ross Stores
+  DG: Dollar General
+  DLTR: Dollar Tree
+  ORLY: O'Reilly Automotive
+  AZO: AutoZone
+  BBY: Best Buy Co.
+  EBAY: eBay Inc.
 aliases:
   - retail
   - ecommerce

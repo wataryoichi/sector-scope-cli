@@ -18,6 +18,21 @@ symbols:
   - XPO
   - CHRW
   - KEX
+names:
+  UNP: Union Pacific Corporation
+  CSX: CSX Corporation
+  NSC: Norfolk Southern Corporation
+  UPS: United Parcel Service
+  FDX: FedEx Corporation
+  DAL: Delta Air Lines
+  UAL: United Airlines Holdings
+  AAL: American Airlines Group
+  LUV: Southwest Airlines Co.
+  JBHT: J.B. Hunt Transport Services
+  ODFL: Old Dominion Freight Line
+  XPO: XPO Inc.
+  CHRW: C.H. Robinson Worldwide
+  KEX: Kirby Corporation
 aliases:
   - logistics
   - shipping

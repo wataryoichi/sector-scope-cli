@@ -18,6 +18,21 @@ symbols:
   - TEL
   - APH
   - GLW
+names:
+  AAPL: Apple Inc.
+  NVDA: NVIDIA Corporation
+  AVGO: Broadcom Inc.
+  QCOM: Qualcomm Incorporated
+  TXN: Texas Instruments
+  ADI: Analog Devices
+  MCHP: Microchip Technology
+  "ON": ON Semiconductor
+  NXPI: NXP Semiconductors
+  SWKS: Skyworks Solutions
+  KEYS: Keysight Technologies
+  TEL: TE Connectivity
+  APH: Amphenol Corporation
+  GLW: Corning Incorporated
 aliases:
   - electronics
   - 電子テクノロジー

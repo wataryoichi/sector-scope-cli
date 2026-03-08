@@ -17,6 +17,7 @@ class UniverseDefinition(BaseModel):
     symbols: list[str]
     aliases: list[str] = Field(default_factory=list)
     tags: list[str] = Field(default_factory=list)
+    names: dict[str, str] = Field(default_factory=dict)
     metadata: dict = Field(default_factory=dict)
     rank_overrides: dict[str, int] = Field(default_factory=dict)
     maintainer: str | None = None

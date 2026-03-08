@@ -19,6 +19,22 @@ symbols:
   - BK
   - CME
   - ICE
+names:
+  JPM: JPMorgan Chase & Co.
+  BAC: Bank of America Corporation
+  WFC: Wells Fargo & Company
+  GS: The Goldman Sachs Group
+  MS: Morgan Stanley
+  C: Citigroup Inc.
+  BLK: BlackRock
+  SCHW: Charles Schwab Corporation
+  AXP: American Express Company
+  USB: U.S. Bancorp
+  PNC: PNC Financial Services Group
+  TFC: Truist Financial Corporation
+  BK: The Bank of New York Mellon
+  CME: CME Group
+  ICE: Intercontinental Exchange
 aliases:
   - financials
   - banking

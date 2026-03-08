@@ -12,6 +12,15 @@ symbols:
   - UEC
   - DNN
   - NNE
+names:
+  CEG: Constellation Energy
+  VST: Vistra Corp.
+  CCJ: Cameco Corporation
+  SMR: NuScale Power
+  LEU: Centrus Energy
+  UEC: Uranium Energy Corp.
+  DNN: Denison Mines
+  NNE: Nano Nuclear Energy
 aliases:
   - uranium
   - atomic

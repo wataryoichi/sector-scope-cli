@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import sys
+from collections.abc import Callable
 from datetime import datetime, timedelta
 
 import pandas as pd
@@ -20,7 +21,11 @@ class YFinanceProvider(PriceProvider):
     def __init__(self, use_cache: bool = True):
         self._use_cache = use_cache
 
-    def fetch_quotes(self, symbols: list[str]) -> list[QuoteSnapshot]:
+    def fetch_quotes(
+        self,
+        symbols: list[str],
+        on_progress: Callable[[], None] | None = None,
+    ) -> list[QuoteSnapshot]:
         """シンボル群の価格スナップショットを取得"""
         results: list[QuoteSnapshot] = []
         # キャッシュから取得可能なものを先に処理
@@ -32,6 +37,8 @@ class YFinanceProvider(PriceProvider):
                 cached = get_cache(f"quote_{sym}", CACHE_TTL_PRICE)
                 if cached:
                     cached_map[sym] = QuoteSnapshot(**cached)
+                    if on_progress:
+                        on_progress()
                 else:
                     to_fetch.append(sym)
         else:
@@ -39,7 +46,7 @@ class YFinanceProvider(PriceProvider):
 
         # yfinance でまとめて取得
         if to_fetch:
-            fetched = self._fetch_from_yfinance(to_fetch)
+            fetched = self._fetch_from_yfinance(to_fetch, on_progress=on_progress)
             for q in fetched:
                 if self._use_cache:
                     set_cache(f"quote_{q.symbol}", q.model_dump())
@@ -54,7 +61,11 @@ class YFinanceProvider(PriceProvider):
 
         return results
 
-    def _fetch_from_yfinance(self, symbols: list[str]) -> list[QuoteSnapshot]:
+    def _fetch_from_yfinance(
+        self,
+        symbols: list[str],
+        on_progress: Callable[[], None] | None = None,
+    ) -> list[QuoteSnapshot]:
         """yfinance API から価格データを取得"""
         results: list[QuoteSnapshot] = []
         now = datetime.now()
@@ -85,6 +96,8 @@ class YFinanceProvider(PriceProvider):
                 results.append(quote)
             except Exception:
                 results.append(QuoteSnapshot(symbol=sym))
+            if on_progress:
+                on_progress()
 
         return results
 

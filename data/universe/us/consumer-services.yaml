@@ -18,6 +18,21 @@ symbols:
   - MGM
   - DIS
   - NFLX
+names:
+  MCD: McDonald's Corporation
+  SBUX: Starbucks Corporation
+  CMG: Chipotle Mexican Grill
+  DRI: Darden Restaurants
+  YUM: Yum! Brands
+  MAR: Marriott International
+  HLT: Hilton Worldwide Holdings
+  ABNB: Airbnb
+  BKNG: Booking Holdings
+  LVS: Las Vegas Sands Corp.
+  WYNN: Wynn Resorts
+  MGM: MGM Resorts International
+  DIS: The Walt Disney Company
+  NFLX: Netflix
 aliases:
   - hospitality
   - leisure

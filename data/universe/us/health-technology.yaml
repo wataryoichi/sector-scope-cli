@@ -18,6 +18,21 @@ symbols:
   - SYK
   - BSX
   - GILD
+names:
+  LLY: Eli Lilly and Company
+  JNJ: Johnson & Johnson
+  ABBV: AbbVie Inc.
+  MRK: Merck & Co.
+  PFE: Pfizer Inc.
+  TMO: Thermo Fisher Scientific
+  ABT: Abbott Laboratories
+  DHR: Danaher Corporation
+  AMGN: Amgen Inc.
+  MDT: Medtronic
+  ISRG: Intuitive Surgical
+  SYK: Stryker Corporation
+  BSX: Boston Scientific
+  GILD: Gilead Sciences
 aliases:
   - pharma
   - biotech

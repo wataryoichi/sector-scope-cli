@@ -14,6 +14,17 @@ symbols:
   - LKQ
   - GPC
   - COR
+names:
+  FAST: Fastenal Company
+  GWW: W.W. Grainger
+  MSM: MSC Industrial Direct
+  POOL: Pool Corporation
+  WSO: Watsco
+  WCC: WESCO International
+  CNM: Core & Main
+  LKQ: LKQ Corporation
+  GPC: Genuine Parts Company
+  COR: Cencora
 aliases:
   - wholesale
   - distribution

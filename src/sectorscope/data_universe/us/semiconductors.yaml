@@ -19,6 +19,22 @@ symbols:
   - TSM
   - "ON"
   - ADI
+names:
+  NVDA: NVIDIA Corporation
+  AMD: Advanced Micro Devices
+  INTC: Intel Corporation
+  AVGO: Broadcom Inc.
+  QCOM: Qualcomm Incorporated
+  TXN: Texas Instruments
+  MU: Micron Technology
+  MRVL: Marvell Technology
+  LRCX: Lam Research Corporation
+  KLAC: KLA Corporation
+  AMAT: Applied Materials
+  ASML: ASML Holding
+  TSM: Taiwan Semiconductor Manufacturing
+  "ON": ON Semiconductor
+  ADI: Analog Devices
 aliases:
   - chips
   - semis

@@ -14,6 +14,17 @@ symbols:
   - AGCO
   - BG
   - DAR
+names:
+  DE: Deere & Company
+  ADM: Archer-Daniels-Midland Company
+  CTVA: Corteva
+  NTR: Nutrien
+  MOS: The Mosaic Company
+  CF: CF Industries Holdings
+  FMC: FMC Corporation
+  AGCO: AGCO Corporation
+  BG: Bunge Global
+  DAR: Darling Ingredients
 aliases:
   - farming
   - agri

@@ -17,6 +17,20 @@ symbols:
   - PATH
   - CDNS
   - SNPS
+names:
+  NVDA: NVIDIA Corporation
+  MSFT: Microsoft Corporation
+  GOOGL: Alphabet Inc.
+  META: Meta Platforms
+  AMZN: Amazon.com
+  PLTR: Palantir Technologies
+  CRM: Salesforce
+  NOW: ServiceNow
+  SNOW: Snowflake
+  AI: C3.ai
+  PATH: UiPath
+  CDNS: Cadence Design Systems
+  SNPS: Synopsys
 aliases:
   - artificial-intelligence
 tags:

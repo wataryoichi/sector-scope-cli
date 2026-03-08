@@ -16,6 +16,19 @@ symbols:
   - NWSA
   - IPG
   - OMC
+names:
+  T: AT&T Inc.
+  VZ: Verizon Communications
+  TMUS: T-Mobile US
+  CMCSA: Comcast Corporation
+  CHTR: Charter Communications
+  LBRDA: Liberty Broadband Corporation
+  WBD: Warner Bros. Discovery
+  PARA: Paramount Global
+  FOX: Fox Corporation
+  NWSA: News Corp
+  IPG: The Interpublic Group of Companies
+  OMC: Omnicom Group
 aliases:
   - telecom
   - media

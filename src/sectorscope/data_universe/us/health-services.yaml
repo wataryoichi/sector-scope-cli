@@ -15,6 +15,18 @@ symbols:
   - DVA
   - MOH
   - ALGN
+names:
+  UNH: UnitedHealth Group
+  ELV: Elevance Health
+  HUM: Humana Inc.
+  CI: The Cigna Group
+  CNC: Centene Corporation
+  CVS: CVS Health Corporation
+  HCA: HCA Healthcare
+  THC: Tenet Healthcare Corporation
+  DVA: DaVita Inc.
+  MOH: Molina Healthcare
+  ALGN: Align Technology
 aliases:
   - healthcare-services
   - health-insurance

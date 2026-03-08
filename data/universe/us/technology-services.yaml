@@ -18,6 +18,21 @@ symbols:
   - PANW
   - WDAY
   - TEAM
+names:
+  MSFT: Microsoft Corporation
+  GOOGL: Alphabet Inc.
+  META: Meta Platforms
+  CRM: Salesforce
+  ORCL: Oracle Corporation
+  NOW: ServiceNow
+  INTU: Intuit
+  ADBE: Adobe Inc.
+  SNPS: Synopsys
+  CDNS: Cadence Design Systems
+  PLTR: Palantir Technologies
+  PANW: Palo Alto Networks
+  WDAY: Workday
+  TEAM: Atlassian
 aliases:
   - tech-services
   - software

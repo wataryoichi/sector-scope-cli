@@ -14,6 +14,17 @@ symbols:
   - CLH
   - SRCL
   - US
+names:
+  WM: Waste Management
+  RSG: Republic Services
+  GFL: GFL Environmental
+  CTAS: Cintas Corporation
+  ROL: Rollins
+  ARMK: Aramark
+  ABM: ABM Industries
+  CLH: Clean Harbors
+  SRCL: Stericycle
+  US: U.S. Silica Holdings
 aliases:
   - waste-management
   - environmental-services

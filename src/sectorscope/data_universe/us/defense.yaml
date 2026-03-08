@@ -14,6 +14,17 @@ symbols:
   - LDOS
   - AVAV
   - KTOS
+names:
+  RTX: RTX Corporation
+  LMT: Lockheed Martin Corporation
+  NOC: Northrop Grumman Corporation
+  GD: General Dynamics Corporation
+  LHX: L3Harris Technologies
+  BA: The Boeing Company
+  HII: Huntington Ingalls Industries
+  LDOS: Leidos Holdings
+  AVAV: AeroVironment
+  KTOS: Kratos Defense & Security Solutions
 aliases:
   - military
   - aerospace-defense

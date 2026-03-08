@@ -18,6 +18,21 @@ symbols:
   - WEX
   - TOST
   - PAYC
+names:
+  V: Visa Inc.
+  MA: Mastercard Incorporated
+  ADP: Automatic Data Processing
+  PAYX: Paychex
+  FIS: Fidelity National Information Services
+  FI: Fiserv
+  GPN: Global Payments
+  VRSK: Verisk Analytics
+  BR: Broadridge Financial Solutions
+  CSGP: CoStar Group
+  CPAY: Corpay
+  WEX: WEX Inc.
+  TOST: Toast
+  PAYC: Paycom Software
 aliases:
   - payments
   - business-services

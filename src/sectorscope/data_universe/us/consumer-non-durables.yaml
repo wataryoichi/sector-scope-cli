@@ -18,6 +18,21 @@ symbols:
   - KMB
   - CHD
   - EL
+names:
+  PG: The Procter & Gamble Company
+  KO: The Coca-Cola Company
+  PEP: PepsiCo
+  PM: Philip Morris International
+  MO: Altria Group
+  CL: Colgate-Palmolive Company
+  MDLZ: Mondelez International
+  GIS: General Mills
+  KHC: The Kraft Heinz Company
+  HSY: The Hershey Company
+  SJM: The J.M. Smucker Company
+  KMB: Kimberly-Clark Corporation
+  CHD: Church & Dwight Co.
+  EL: The Estée Lauder Companies
 aliases:
   - consumer-staples
   - food-beverage

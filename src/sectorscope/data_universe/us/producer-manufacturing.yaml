@@ -18,6 +18,21 @@ symbols:
   - AME
   - OTIS
   - IR
+names:
+  CAT: Caterpillar Inc.
+  DE: Deere & Company
+  HON: Honeywell International
+  GE: GE Aerospace
+  MMM: 3M Company
+  EMR: Emerson Electric Co.
+  ROK: Rockwell Automation
+  ITW: Illinois Tool Works
+  PH: Parker-Hannifin Corporation
+  ETN: Eaton Corporation
+  DOV: Dover Corporation
+  AME: AMETEK Inc.
+  OTIS: Otis Worldwide Corporation
+  IR: Ingersoll Rand
 aliases:
   - industrials
   - machinery

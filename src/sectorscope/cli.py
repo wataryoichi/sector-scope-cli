@@ -150,8 +150,30 @@ def show(
 
     provider = YFinanceProvider(use_cache=not no_cache)
 
-    with console.status("価格データを取得中..."):
-        quotes = provider.fetch_quotes(universe.symbols)
+    from rich.progress import BarColumn, Progress, SpinnerColumn, TextColumn
+
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[bold blue]{task.description}"),
+        BarColumn(),
+        TextColumn("{task.completed}/{task.total} 銘柄"),
+        console=console,
+        transient=True,
+    ) as progress:
+        task = progress.add_task(
+            f"{universe.label} の価格データを取得中",
+            total=len(universe.symbols),
+        )
+        quotes = provider.fetch_quotes(
+            universe.symbols,
+            on_progress=lambda: progress.advance(task),
+        )
+
+    # YAML の names をフォールバック名として適用
+    yaml_names = universe.names or {}
+    for q in quotes:
+        if not q.name and q.symbol in yaml_names:
+            q.name = yaml_names[q.symbol]
 
     warnings: list[str] = []
     rows = []

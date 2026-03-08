@@ -18,6 +18,21 @@ symbols:
   - HUN
   - OLN
   - AXTA
+names:
+  LIN: Linde plc
+  APD: Air Products and Chemicals
+  SHW: The Sherwin-Williams Company
+  ECL: Ecolab Inc.
+  DD: DuPont de Nemours
+  DOW: Dow Inc.
+  PPG: PPG Industries
+  CE: Celanese Corporation
+  EMN: Eastman Chemical Company
+  IFF: International Flavors & Fragrances
+  RPM: RPM International
+  HUN: Huntsman Corporation
+  OLN: Olin Corporation
+  AXTA: Axalta Coating Systems
 aliases:
   - chemicals
   - materials

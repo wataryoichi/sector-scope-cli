@@ -18,6 +18,21 @@ symbols:
   - HES
   - FANG
   - HAL
+names:
+  XOM: Exxon Mobil Corporation
+  CVX: Chevron Corporation
+  COP: ConocoPhillips
+  EOG: EOG Resources
+  SLB: SLB (Schlumberger)
+  PXD: Pioneer Natural Resources
+  MPC: Marathon Petroleum Corporation
+  VLO: Valero Energy Corporation
+  PSX: Phillips 66
+  OXY: Occidental Petroleum
+  DVN: Devon Energy Corporation
+  HES: Hess Corporation
+  FANG: Diamondback Energy
+  HAL: Halliburton Company
 aliases:
   - oil-gas
   - energy
