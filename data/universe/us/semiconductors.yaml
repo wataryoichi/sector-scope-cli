@@ -1,0 +1,30 @@
+id: semiconductors
+label: Semiconductors
+market: US
+description: Major US listed semiconductor companies
+maintainer: manual
+symbols:
+  - NVDA
+  - AMD
+  - INTC
+  - AVGO
+  - QCOM
+  - TXN
+  - MU
+  - MRVL
+  - LRCX
+  - KLAC
+  - AMAT
+  - ASML
+  - TSM
+  - ON
+  - ADI
+aliases:
+  - chips
+  - semis
+tags:
+  - semiconductors
+  - technology
+  - us
+metadata:
+  updated_at: "2026-03-08"

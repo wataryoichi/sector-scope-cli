@@ -1,0 +1,25 @@
+id: agriculture
+label: Agriculture
+market: US
+description: US listed agriculture and farming companies
+maintainer: manual
+symbols:
+  - DE
+  - ADM
+  - CTVA
+  - NTR
+  - MOS
+  - CF
+  - FMC
+  - AGCO
+  - BG
+  - DAR
+aliases:
+  - farming
+  - agri
+tags:
+  - agriculture
+  - commodities
+  - us
+metadata:
+  updated_at: "2026-03-08"
